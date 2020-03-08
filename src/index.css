@@ -1,13 +1,52 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  /* fondo de pantalla fijo */
+  background-image: url("./assets/imagenes/fondoweb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.right {
+  margin-right: 200px;
+}
+.corazon {
+  color: red;
+}
+.collection {
+  width: 800px;
+}
+.songs {
+  color: black;
+}
+.titulo-songs {
+  color: #5db1c9;
+}
+.brand-logo {
+  color: white;
+}
+.fondo-cumple {
+  min-height: 300px !important;
+  background-image: url('./assets/imagenes/fondo-amor.jpg');  
+  background-size: cover !important;
+  background-position: center;
+}
+.titulo-videos{
+  background-color: rgba(0, 0, 0,0.7);
+  width: 110%;
+  height: 75px;
+}
+.tampoco {
+  background-color: white;
+  width: 600px;
+  height: 300;
+  font-size: 20px;
 }
