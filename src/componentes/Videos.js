@@ -22,6 +22,7 @@ const Videos = () => {
                     Mi amor debemos tomar este video como enseñansa para lo que
                     planeamos en nuestra vida, entiendelo todo, espero que
                     estemos en la misma dirección.
+                    No olvides que debemos ir en la misma dirección amor. 
                   </blockquote>
                 </div>
                 <div class="card-action"></div>
